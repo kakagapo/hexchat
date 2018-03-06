@@ -89,5 +89,6 @@ executable('hexchat',
   dependencies: hexchat_gtk_deps,
   c_args: hexchat_gtk_cflags,
   link_args: hexchat_gtk_ldflags,
-  install: true
+  install: true,
+  gui_app: true,
 )
